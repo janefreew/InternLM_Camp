@@ -9,5 +9,25 @@
 # **进阶作业 (优秀学员必做)**
 
 - 熟悉 `huggingface` 下载功能，使用 `huggingface_hub` python 包，下载 `InternLM2-Chat-7B` 的 `config.json` 文件到本地（需截图下载过程）
+
+  - ```shell
+    pip install -U huggingface_hub 
+    # 需下载hf-transfer  ， 只下载 huggingface_hub 可能会下载不成功
+    pip install -U hf-transfer  
+    # 可以 --help 查看使用方法
+    huggingface-cli download --help
+    huggingface-cli download internlm/internlm2-chat-7b config.json 
+    ```
+
+    - 参考链接
+      - [如何快速下载huggingface模型——全方法总结](https://zhuanlan.zhihu.com/p/663712983)
+
+  - ![image-20240401001915423](https://gitee.com/janefreew/pic-bed/raw/master/img/image-20240401001915423.png)
+
 - 完成 `浦语·灵笔2` 的 `图文创作` 及 `视觉问答` 部署（需截图）
+
+  - ![image-20240401064357394](https://gitee.com/janefreew/pic-bed/raw/master/img/image-20240401064357394.png)
+
 - 完成 `Lagent` 工具调用 `数据分析` Demo 部署（需截图）
+
+  - ![image-20240331234950108](https://gitee.com/janefreew/pic-bed/raw/master/img/image-20240331234950108.png)
