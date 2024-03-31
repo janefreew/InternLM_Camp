@@ -1,11 +1,9 @@
 # 书生浦语大模型全链路开源体系
 
 - [代码仓](https://github.com/InternLM/InternLM/)
-
 - 专用模型
 - 通用大模型
     - 一个模型对应多种任务、多种模态
-
 
 ## 书生浦语2.0(InternLM2)的主要亮点
 
@@ -23,11 +21,7 @@
 
 ## 模型应用典型流程
 
-
-
 ![image-20240331084154161](https://gitee.com/janefreew/pic-bed/raw/master/img/image-20240331084154161.png)
-
-
 
 ### 模型选型
 
@@ -47,18 +41,11 @@
 - 在业务系统里面，是否有一些外部的API或者工具需要去做交互
   - 需要的话，进一步构建智能体
 
-
-
-
-
 ## 书生浦语的全链条工具体系开源
-
-
 
 ![image-20240331084910609](https://gitee.com/janefreew/pic-bed/raw/master/img/image-20240331084910609.png)
 
 - 数据
-
   - 书生 · 万卷
     - 1.0
     - CC
@@ -103,20 +90,14 @@
 - 应用
 
   - Lagent 
-
     - 支持多种智能体，支持代码解释器等多种工具
     - ![ ](https://gitee.com/janefreew/pic-bed/raw/master/img/image-20240331091040190.png)
       - 支持React ReWoo AutoGPT  不同智能体的pipeline
-
     - 代码解数学题
     - 零样本泛化
-
   - AgentLego
-
     - 目的是让大家关注在智能体的开发上
     - ![image-20240331091449708](https://gitee.com/janefreew/pic-bed/raw/master/img/image-20240331091449708.png)
     - 智能体框架工具箱和智能体本身做了一定的解耦
-
 # 技术报告
-
 - [论文](https://arxiv.org/pdf/2403.17297.pdf)
