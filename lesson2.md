@@ -26,6 +26,8 @@
 
 - 完成 `浦语·灵笔2` 的 `图文创作` 及 `视觉问答` 部署（需截图）
 
+  - ![image-20240401090940819](https://gitee.com/janefreew/pic-bed/raw/master/img/image-20240401090940819.png)
+
   - ![image-20240401064357394](https://gitee.com/janefreew/pic-bed/raw/master/img/image-20240401064357394.png)
 
 - 完成 `Lagent` 工具调用 `数据分析` Demo 部署（需截图）
